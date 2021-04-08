@@ -1,0 +1,6 @@
+.container {
+  background: pink;
+}
+.container .black-background {
+  background: grey;
+}
