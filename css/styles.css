@@ -1,6 +1,23 @@
-.container {
-  background: pink;
+html, body {
+  font-family: "Open Sans", sans-serif;
 }
-.container .black-background {
-  background: grey;
+
+h1 {
+  font-size: 74px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+.hero-unit {
+  background: url("../img/hero-unit-background-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero-unit .hero-unit-subheading {
+  color: #9ACFF6;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-transform: uppercase;
 }
