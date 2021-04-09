@@ -3,8 +3,14 @@
     background-size: cover;
     background-position: center;
 
+    min-height: 100vh;
+
         .hero-unit-subheading {
             color: #9ACFF6;
             text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 10px;
+            margin-bottom: 45px;
         }
 }
