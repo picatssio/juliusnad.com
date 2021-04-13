@@ -82,6 +82,12 @@ p {
 .content-section.dark-content {
   background: #303B48;
 }
+.content-section.content-section-side-image .content-section-side-image-container {
+  width: 250px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
 
 .portfolio-cards {
   margin-top: 50px;
