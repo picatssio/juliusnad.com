@@ -110,6 +110,11 @@ a:hover {
   background-position: center;
 }
 
+@media only screen and (max-width: 576px) {
+  .content-section-heading {
+    text-align: center;
+  }
+}
 .portfolio-cards {
   margin-top: 50px;
 }
