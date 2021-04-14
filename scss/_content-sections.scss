@@ -10,6 +10,15 @@
     }
 
     &.content-section-side-image {
+
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+
+        .content-section-side-image-content {
+            flex-grow: 1;
+            padding: 50px 0;
+        }
         .content-section-side-image-container {
             width: 250px;
             height: 500px;
@@ -18,4 +27,3 @@
         }
     }
 }
-

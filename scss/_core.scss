@@ -23,3 +23,12 @@ p {
     line-height: 1.6;
     margin: 20px 0;
 }
+
+a {
+    color: #9ACFF6;
+    text-decoration: underline;
+
+    &:hover {
+        color: darken(#9ACFF6, 15%);
+    }
+}
