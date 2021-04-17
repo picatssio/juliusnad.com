@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   font-family: "Open Sans", sans-serif;
   color: #423D3F;
@@ -174,6 +175,7 @@ a:hover {
 }
 .contact-form .contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
   opacity: 1;
+  transform: scale(1);
 }
 .contact-form .contact-form-checkbox-label {
   position: relative;
@@ -200,11 +202,13 @@ a:hover {
 .contact-form .contact-form-checkbox-label:after {
   position: absolute;
   left: 11px;
-  top: 9px;
+  top: 10px;
+  font-family: "Font Awesome 5 Free";
   color: #EA2626;
-  content: "B";
+  content: "";
   opacity: 0;
-  transition: opacity 0.3s;
+  transform: scale(0.5);
+  transition: opacity 0.3s, transform 0.3s;
 }
 
 .footer {
