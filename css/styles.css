@@ -83,7 +83,7 @@ a:hover {
   padding: 15px 23px;
 }
 .btn.btn-primary {
-  background: linear-gradient(50deg, #833ab4 0%, #ffab35 90%);
+  background: linear-gradient(50deg, #833ab4 22%, #f79000 90%);
 }
 
 .content-section {
